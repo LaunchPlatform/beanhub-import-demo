@@ -45,3 +45,26 @@ Then run the import command again, and you will see it automatically remove the 
   <img src="https://github.com/LaunchPlatform/beanhub-import-demo/raw/master/assets/auto-txn-migration.png?raw=true" alt="Git diff screenshot showing Beancount transactions removed from the books/2024.bean file and new quater beancount files added" />
 </p>
 
+Another example is when you want to add new tags to the imported transactions for expenses. You can modify the import file with a new tags field in the transaction template:
+
+```YAML
+tags:
+  - BeanHubImportIsAwesome
+```
+
+And the git diff looks like this:
+
+<p align="center">
+  <img src="https://github.com/LaunchPlatform/beanhub-import-demo/raw/master/assets/new-tags.png?raw=true" alt="Git diff screenshot showing new line" />
+</p>
+
+Then, run the import command again. And here you go!
+
+TODO:
+
+It's all declarative and idempotent.
+With beanhub-import, you say goodbye to manually importing and maintaining transactions!
+I hope you like this tool.
+It's still in the early stage of development.
+We are also working on making generating transactions from multiple sources possible.
+Please feel free to open issues in the beanhub-import repository if you have any feedback 🙌
