@@ -1,4 +1,3 @@
 include "accounts.bean"
-include "commodities.bean"
-
 include "books/*.bean"
+include "commodities.bean"

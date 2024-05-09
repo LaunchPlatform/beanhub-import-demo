@@ -1,22 +1,21 @@
 2023-11-16 * "IRS" "2023 Q2 Federal estimate tax" #EstimateTax
-  Expenses:Company:Tax:Federal:Y2023                                    1,000.00 USD
+  Expenses:Company:Tax:Federal:Y2023                                     1,000.00 USD
   Assets:Bank:US:Mercury
 
 2023-11-18 * "Hours spent on contracting project for client XYZ"
-  Assets:AccountsReceivable:XYZContracting                                     7 XYZ.WORK_HOUR @ 300 USD
+  Assets:AccountsReceivable:XYZContracting                                      7 XYZ.WORK_HOUR @ 300 USD
   Income:Contracting:XYZ
 
 2023-11-19 * "Hours spent on contracting project for client XYZ"
-  Assets:AccountsReceivable:XYZContracting                                     4 XYZ.WORK_HOUR @ 300 USD
+  Assets:AccountsReceivable:XYZContracting                                      4 XYZ.WORK_HOUR @ 300 USD
   Income:Contracting:XYZ
 
 2023-11-20 * "Hours spent on contracting project for client XYZ"
-  Assets:AccountsReceivable:XYZContracting                                    11 XYZ.WORK_HOUR @ 300 USD
+  Assets:AccountsReceivable:XYZContracting                                     11 XYZ.WORK_HOUR @ 300 USD
   Income:Contracting:XYZ
 
-
 2023-12-15 * "Hours spent on contracting project for client XYZ"
-  Assets:AccountsReceivable:XYZContracting                                    13 XYZ.WORK_HOUR @ 300 USD
+  Assets:AccountsReceivable:XYZContracting                                     13 XYZ.WORK_HOUR @ 300 USD
   Income:Contracting:XYZ
 
 2023-12-28 * "Purchase PCs for office"
