@@ -39,6 +39,9 @@ You can then change the `default_file` value like this:
 books/{{ date.year }}Q{{ ((date.month - 1) // 3) + 1  }}.bean
 ```
 
-TODO:
-
 Then run the import command again, and you will see it automatically remove the transactions from the `2024.bean` file, then create and insert those transactions to `2024Q1.bean` and `2024Q2.bean` instead.
+
+<p align="center">
+  <img src="https://github.com/LaunchPlatform/beanhub-import-demo/raw/master/assets/auto-txn-migration?raw=true" alt="Git diff screenshot showing Beancount transactions removed from the books/2024.bean file and new quater beancount files added" />
+</p>
+
