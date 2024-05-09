@@ -22,8 +22,11 @@
           env = {
             LC_ALL = "C.UTF-8";
           };
+          shellHook = ''
+            poetry install
+          '';
           packages = with pkgs; [
-            python312
+            poetry
           ];
         };
       }
