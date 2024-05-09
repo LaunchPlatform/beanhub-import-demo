@@ -39,6 +39,12 @@ You can then change the `default_file` value like this:
 books/{{ date.year }}Q{{ ((date.month - 1) // 3) + 1  }}.bean
 ```
 
+And the git diff looks like this:
+
+<p align="center">
+  <img src="https://github.com/LaunchPlatform/beanhub-import-demo/raw/master/assets/quater-output-file.png?raw=true" alt="Git diff screenshot showing default_file changed to output quater file names instead of just year" />
+</p>
+
 Then run the import command again, and you will see it automatically remove the transactions from the `2024.bean` file, then create and insert those transactions to `2024Q1.bean` and `2024Q2.bean` instead.
 
 <p align="center">
