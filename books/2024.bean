@@ -1,0 +1,11 @@
+2023-12-28 * "Purchase office supplies"
+  Expenses:Office:Supplies                                        201.87 USD
+  Assets:Bank:US:Mercury
+
+2024-01-20 * "Business trip to NY"
+  Expenses:Company:BusinessTravel                                 368.14 USD
+  Assets:Bank:US:Mercury
+
+2024-02-18 * "Hours spent on contracting project for client XYZ"
+  Assets:AccountsReceivable:XYZContracting                             5 XYZ.WORK_HOUR @ 300 USD
+  Income:Contracting:XYZ
