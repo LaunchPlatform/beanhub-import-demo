@@ -1,5 +1,5 @@
 # beanhub-import-demo
-This is a demo repository meant to showcase beanhub-import. To kick start, you need to install dependencies first with poetry:
+This is a demo repository meant to showcase [beanhub-import](https://github.com/LaunchPlatform/beanhub-import). To kick start, you need to install dependencies first with poetry:
 
 ```bash
 poetry install
