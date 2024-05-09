@@ -1,0 +1,107 @@
+context:
+  routine_expenses:
+    "Amazon Web Services":
+      account: Expenses:Engineering:Servers:AWS
+    OpenPhone:
+      account: Expenses:Office:Supplies:SoftwareAsService
+    Mailchimp:
+      account: Expenses:Marketing:ServiceSubscription
+    Adobe:
+      account: Expenses:Design:ServiceSubscription
+    Netlify:
+      account: Expenses:Engineering:ServiceSubscription
+    Circleci:
+      account: Expenses:Engineering:ServiceSubscription
+    Digital Ocean:
+      account: Expenses:Engineering:ServiceSubscription
+    Microsoft:
+      account: Expenses:Office:Supplies:SoftwareAsService
+      narration: "Microsoft 365 Apps for Business Subscription"
+    Mercury IO Cashback:
+      account: Expenses:CreditCardCashback
+      narration: "Mercury IO Cashback"
+    AMEX EPAYMENT:
+      account: Liabilities:CreditCard:US:AMEXAmazonPrime
+      narration: "American Express Amazon Prime credit card payment"
+
+inputs:
+  - match: "import-data/mercury/*.csv"
+    config:
+      extractor: mercury
+      default_file: "books/{{ date.year }}.bean"
+      prepend_postings:
+        - account: Assets:Bank:US:Mercury
+          amount:
+            number: "{{ amount }}"
+            currency: "{{ currency | default('USD', true) }}"
+
+imports:
+  - name: Routine expenses
+    match:
+      extractor:
+        equals: "mercury"
+      desc:
+        one_of:
+          - Amazon Web Services
+          - OpenPhone
+          - Netlify
+          - Mailchimp
+          - Circleci
+          - Adobe
+          - Digital Ocean
+          - Microsoft
+          - AMEX EPAYMENT
+          - Mercury IO Cashback
+    actions:
+      - txn:
+          narration: "{{ routine_expenses[desc].narration | default(desc, true) | default(bank_desc, true) }}"
+          postings:
+            - account: "{{ routine_expenses[desc].account }}"
+              amount:
+                number: "{{ -amount }}"
+                currency: "{{ currency | default('USD', true) }}"
+
+  - name: Gusto fees
+    match:
+      extractor:
+        equals: "mercury"
+      desc: GUSTO
+      bank_desc:
+        prefix: "GUSTO; FEE "
+    actions:
+      - txn:
+          narration: "Gusto subscription fee"
+          postings:
+            - account: Expenses:Office:Supplies:SoftwareAsService
+              amount:
+                number: "{{ -amount }}"
+                currency: "{{ currency | default('USD', true) }}"
+
+  - name: Receive payments from contracting client XYZ
+    match:
+      extractor:
+        equals: "mercury"
+      desc:
+        equals: XYZ
+    actions:
+      - txn:
+          narration: "Receive payment from XYZ"
+          postings:
+            - account: "Assets:AccountsReceivable:XYZContracting"
+              amount:
+                number: "{{ -amount / 300 }}"
+                currency: "XYZ.WORK_HOUR"
+              price:
+                number: "300.0"
+                currency: "USD"
+
+  - name: Ignore unused entries
+    match:
+      extractor:
+        equals: "mercury"
+      desc:
+        one_of:
+        - Mercury Credit
+        - Mercury Checking xx1462
+    actions:
+      - type: ignore

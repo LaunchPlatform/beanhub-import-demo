@@ -1,0 +1,11 @@
+2021-01-01 open Assets:Cash
+2021-01-01 open Assets:Bank:US:Mercury
+2021-01-01 open Assets:AccountsReceivable:XYZContracting
+
+2021-01-01 open Expenses:Engineering:Servers:AWS
+2021-01-01 open Expenses:Marketing:Servers:AWS
+2021-01-01 open Expenses:Design:Servers:AWS
+2021-01-01 open Expenses:Office:Supplies:SoftwareAsService
+2021-01-01 open Expenses:Office:Supplies:EquipmentsForDevelopment
+2021-01-01 open Expenses:Company:Tax:Federal:Y2023
+2021-01-01 open Expenses:Company:Tax:Federal:Y2024
