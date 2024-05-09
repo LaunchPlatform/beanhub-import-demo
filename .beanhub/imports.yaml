@@ -17,9 +17,6 @@ context:
     Microsoft:
       account: Expenses:Office:Supplies:SoftwareAsService
       narration: "Microsoft 365 Apps for Business Subscription"
-    Mercury IO Cashback:
-      account: Expenses:CreditCardCashback
-      narration: "Mercury IO Cashback"
     AMEX EPAYMENT:
       account: Liabilities:CreditCard:US:AMEXAmazonPrime
       narration: "American Express Amazon Prime credit card payment"
@@ -51,7 +48,6 @@ imports:
           - Digital Ocean
           - Microsoft
           - AMEX EPAYMENT
-          - Mercury IO Cashback
     actions:
       - txn:
           narration: "{{ routine_expenses[desc].narration | default(desc, true) | default(bank_desc, true) }}"
@@ -102,6 +98,6 @@ imports:
       desc:
         one_of:
         - Mercury Credit
-        - Mercury Checking xx1462
+        - Mercury Checking xx1234
     actions:
       - type: ignore

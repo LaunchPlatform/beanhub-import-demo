@@ -1,0 +1,58 @@
+Date (UTC),Description,Amount,Status,Source Account,Bank Description,Reference,Note,Last Four Digits,Name On Card,Category,GL Code,Timestamp,Original Currency
+05-03-2024,GUSTO,-46,Sent,Mercury Checking xx1234,GUSTO; FEE 87654321; Launch Platform LLC,,,,,,,05-03-2024 21:30,
+05-03-2024,Amazon Web Services,-181.63,Sent,Mercury Credit,Amazon web services,,,6789,Jane Doe,Software,,05-03-2024 3:25,USD
+05-03-2024,Adobe,-54.99,Sent,Mercury Credit,ADOBE  *ADOBE,,,6789,Jane Doe,Software,,05-03-2024 3:24,USD
+05-01-2024,Digital Ocean,-7,Sent,Mercury Credit,DIGITALOCEAN.COM,,,6789,Jane Doe,Other,,05-01-2024 10:45,USD
+05-01-2024,Mercury Checking xx1234,1234.56,Sent,Mercury Credit,IO AUTOPAY,,,,,,,05-01-2024 0:05,
+05-01-2024,Mercury Credit,-1234.56,Sent,Mercury Checking xx1234,IO AUTOPAY,,,,,,,05-01-2024 0:05,
+04-26-2024,OpenPhone,-11.84,Sent,Mercury Credit,OPENPHONE,,,6789,Jane Doe,Software,,04-26-2024 3:15,USD
+04-16-2024,Mailchimp,-26,Sent,Mercury Credit,Mailchimp,,,6789,Jane Doe,Software,,04-16-2024 14:07,USD
+04-15-2024,Circleci,-30,Sent,Mercury Credit,CIRCLECI.COM,,,6789,Jane Doe,Software,,04-15-2024 9:58,USD
+04-12-2024,Microsoft,-8.25,Sent,Mercury Credit,MSFT * E01234567,,,6789,Jane Doe,Software,,04-012-2024 10:42,USD
+04-08-2024,AMEX EPAYMENT,-27.27,Sent,Mercury Checking xx1234,AMEX EPAYMENT; ACH PMT; JaneDoe,,,,,,,04-08-2024 21:33,
+04-07-2024,Netlify,-19,Sent,Mercury Credit,NETLIFY,,,6789,Jane Doe,Software,,04-07-2024 12:33,USD
+04-03-2024,GUSTO,-46,Sent,Mercury Checking xx1234,GUSTO; FEE 87654321; Launch Platform LLC,,,,,,,04-03-2024 21:35,
+04-03-2024,Amazon Web Services,-148.24,Sent,Mercury Credit,Amazon web services,,,6789,Jane Doe,Software,,04-03-2024 11:57,USD
+04-03-2024,Adobe,-54.99,Sent,Mercury Credit,ADOBE  *ADOBE,,,6789,Jane Doe,Software,,04-03-2024 0:40,USD
+04-01-2024,Digital Ocean,-18.9,Sent,Mercury Credit,DIGITALOCEAN.COM,,,6789,Jane Doe,Other,,04-01-2024 6:16,USD
+04-01-2024,Mercury Credit,-111.34,Sent,Mercury Checking xx1234,IO AUTOPAY,,,,,,,04-01-2024 0:04,
+04-01-2024,Mercury Checking xx1234,111.34,Sent,Mercury Credit,IO AUTOPAY,,,,,,,04-01-2024 0:04,
+03-30-2024,Amazon Web Services,-343.25,Sent,Mercury Credit,Amazon web services,,,6789,Jane Doe,Software,,03-30-2024 10:43,USD
+03-27-2024,XYZ,2100,Sent,Mercury Checking xx1234,XYZ; Receivable; Launch Platform LLC,012346789 XYZ Bill.com Multiple invoices,,,,,,03-27-2024 12:33,
+03-26-2024,OpenPhone,-10,Sent,Mercury Credit,OPENPHONE,,,6789,Jane Doe,Software,,03-26-2024 3:30,USD
+03-16-2024,Mailchimp,-26,Sent,Mercury Credit,Mailchimp,,,6789,Jane Doe,Software,,03-16-2024 14:10,USD
+03-15-2024,Circleci,-30,Sent,Mercury Credit,CIRCLECI.COM,,,6789,Jane Doe,Software,,03-15-2024 10:59,USD
+03-12-2024,Microsoft,-8.25,Sent,Mercury Credit,MSFT * E01234567,,,6789,Jane Doe,Software,,03-12-2024 6:14,USD
+03-07-2024,AMEX EPAYMENT,-245.53,Sent,Mercury Checking xx1234,AMEX EPAYMENT; ACH PMT; JaneDoe,,,,,,,03-07-2024 13:56,
+03-07-2024,Netlify,-19,Sent,Mercury Credit,NETLIFY,,,6789,Jane Doe,Software,,03-07-2024 7:10,USD
+03-05-2024,GUSTO,-46,Sent,Mercury Checking xx1234,GUSTO; FEE 87654321; Launch Platform LLC,,,,,,,03-05-2024 14:00,
+03-03-2024,Adobe,-54.99,Sent,Mercury Credit,ADOBE INC.,,,6789,Jane Doe,Software,,03-03-2024 12:55,USD
+03-03-2024,Amazon Web Services,-177.7,Sent,Mercury Credit,Amazon web services,,,6789,Jane Doe,Software,,03-03-2024 7:09,USD
+03-01-2024,Digital Ocean,-7.34,Sent,Mercury Credit,DIGITALOCEAN.COM,,,6789,Jane Doe,Other,,03-01-2024 10:45,USD
+03-01-2024,Mercury Credit,-250,Sent,Mercury Checking xx1234,IO AUTOPAY,,,,,,,03-01-2024 0:04,
+03-01-2024,Mercury Checking xx1234,250,Sent,Mercury Credit,IO AUTOPAY,,,,,,,03-01-2024 0:04,
+02-26-2024,XYZ,3000,Sent,Mercury Checking xx1234,XYZ; Receivable; Launch Platform LLC,012346789 XYZ Bill.com Multiple invoices,,,,,,02-26-2024 13:34,
+02-26-2024,OpenPhone,-10,Sent,Mercury Credit,OPENPHONE,,,6789,Jane Doe,Software,,02-26-2024 4:10,USD
+02-16-2024,Mailchimp,-26,Sent,Mercury Credit,Mailchimp,,,6789,Jane Doe,Software,,02-16-2024 15:07,USD
+02-15-2024,Circleci,-30,Sent,Mercury Credit,CIRCLECI.COM,,,6789,Jane Doe,Software,,02-15-2024 12:12,USD
+02-12-2024,Microsoft,-8.25,Sent,Mercury Credit,MSFT * E01234567,,,6789,Jane Doe,Software,,02-12-2024 7:10,USD
+02-07-2024,AMEX EPAYMENT,-617.7,Sent,Mercury Checking xx1234,AMEX EPAYMENT; ACH PMT,,,,,,,02-07-2024 13:52,
+02-07-2024,XYZ,5700,Sent,Mercury Checking xx1234,XYZ; Receivable,012346789 XYZ Bill.com Multiple invoices,,,,,,02-07-2024 13:34,
+02-07-2024,Netlify,-19,Sent,Mercury Credit,NETLIFY,,,6789,Jane Doe,Software,,02-07-2024 7:10,USD
+02-05-2024,GUSTO,-46,Sent,Mercury Checking xx1234,GUSTO; FEE 87654321,,,,,,,02-05-2024 16:07,
+02-03-2024,Amazon Web Services,-171.24,Sent,Mercury Credit,Amazon web services,,,6789,Jane Doe,Software,,02-03-2024 7:11,USD
+02-03-2024,Adobe,-54.99,Sent,Mercury Credit,ADOBE INC.,,,6789,Jane Doe,Software,,02-03-2024 1:48,USD
+02-01-2024,Digital Ocean,-7,Sent,Mercury Credit,DIGITALOCEAN.COM,,,6789,Jane Doe,Other,,02-01-2024 7:12,USD
+02-01-2024,Mercury Credit,-53.67,Sent,Mercury Checking xx1234,IO AUTOPAY,,,,,,,02-01-2024 0:03,
+02-01-2024,Mercury Checking xx1234,53.67,Sent,Mercury Credit,IO AUTOPAY,,,,,,,02-01-2024 0:03,
+01-26-2024,OpenPhone,-10,Sent,Mercury Credit,OPENPHONE,,,6789,Jane Doe,Software,,01-26-2024 4:10,USD
+01-16-2024,XYZ,4500,Sent,Mercury Checking xx1234,XYZ; Receivable,012346789 XYZ Bill.com Multiple invoices,,,,,,01-16-2024 13:31,
+01-16-2024,Mailchimp,-26,Sent,Mercury Credit,Mailchimp,,,6789,Jane Doe,Software,,01-16-2024 12:49,USD
+01-15-2024,Circleci,-30,Sent,Mercury Credit,CIRCLECI.COM,,,6789,Jane Doe,Software,,01-15-2024 10:48,USD
+01-12-2024,Microsoft,-8.25,Sent,Mercury Credit,MSFT * E01234567,,,6789,Jane Doe,Software,,01-12-2024 7:19,USD
+01-08-2024,AMEX EPAYMENT,-345.67,Sent,Mercury Checking xx1234,AMEX EPAYMENT; ACH PMT,,,,,,,01-08-2024 13:53,
+01-07-2024,Netlify,-38,Sent,Mercury Credit,NETLIFY,,,6789,Jane Doe,Software,,01-07-2024 7:14,USD
+01-04-2024,GUSTO,-46,Sent,Mercury Checking xx1234,GUSTO; FEE 87654321,,,,,,,01-04-2024 13:51,
+01-03-2024,Amazon Web Services,-853.64,Sent,Mercury Credit,Amazon web services,,,6789,Jane Doe,Software,,01-03-2024 11:52,USD
+01-03-2024,Adobe,-54.99,Sent,Mercury Credit,ADOBE  *CREATIVE CLOUD,,,6789,Jane Doe,Software,,01-03-2024 7:22,USD
+01-01-2024,Digital Ocean,-8.57,Sent,Mercury Credit,DIGITALOCEAN.COM,,,6789,Jane Doe,Other,,01-01-2024 10:47,USD
