@@ -60,7 +60,9 @@ And the git diff looks like this:
 
 Then, run the import command again. And here you go!
 
-TODO:
+<p align="center">
+  <img src="https://github.com/LaunchPlatform/beanhub-import-demo/raw/master/assets/new-tags-result.png?raw=true" alt="Git diff screenshot showing new tags added to all imported Beancount transactions" />
+</p>
 
 It's all declarative and idempotent.
 With beanhub-import, you say goodbye to manually importing and maintaining transactions!
