@@ -69,4 +69,4 @@ With beanhub-import, you say goodbye to manually importing and maintaining trans
 I hope you like this tool.
 It's still in the early stage of development.
 We are also working on making generating transactions from multiple sources possible.
-Please feel free to open issues in the beanhub-import repository if you have any feedback 🙌
+Please feel free to open issues in the [beanhub-import](https://github.com/LaunchPlatform/beanhub-import) repository if you have any feedback 🙌
