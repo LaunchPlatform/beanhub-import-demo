@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-23.11";
+    nixpkgs.url = github:NixOS/nixpkgs/nixpkgs-unstable;
     flake-utils = {
       url = "github:numtide/flake-utils/v1.0.0";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -22,11 +22,8 @@
           env = {
             LC_ALL = "C.UTF-8";
           };
-          shellHook = ''
-            poetry install
-          '';
           packages = with pkgs; [
-            poetry
+            beanhub-cli
           ];
         };
       }

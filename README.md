@@ -12,10 +12,16 @@ nix develop
 ```
 
 The above step shall install beanhub-cli for you.
-You can run the following command in the poetry environment or in the nix environment:
+You can run the following command in the poetry environment:
 
 ```bash
 poetry run bh import
+```
+
+Or use `bh` command directly if you are using Nix:
+
+```bash
+bh import
 ```
 
 You can then run 
