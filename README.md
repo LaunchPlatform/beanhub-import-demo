@@ -11,7 +11,7 @@ Or, if you prefer using nixpkgs, you can also run:
 nix develop
 ```
 
-The above step shall install beanhub-cli for you.
+The above step shall install [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) for you.
 You can run the following command in the poetry environment:
 
 ```bash
