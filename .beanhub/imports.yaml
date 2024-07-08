@@ -31,7 +31,7 @@ inputs:
           amount:
             number: "{{ amount }}"
             currency: "{{ currency | default('USD', true) }}"
-  - match: "import-data/connect/American Express/Blue Cash Everyday®/*.csv"
+  - match: "import-data/connect/American Express/Blue Cash Everyday/*.csv"
     config:
       default_file: "books/{{ date.year }}.bean"
       prepend_postings:
