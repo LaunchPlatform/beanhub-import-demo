@@ -92,6 +92,8 @@ imports:
           flag: "{{ '!' if pending else '*' }}"
           payee: "{{ payee | default(omit, true) }}"
           narration: "{{ narration }}"
+          tags:
+          - Personal
           postings:
             - account: "{{ account }}"
               amount:
