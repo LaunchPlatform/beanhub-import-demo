@@ -31,6 +31,14 @@ inputs:
           amount:
             number: "{{ amount }}"
             currency: "{{ currency | default('USD', true) }}"
+  - match: "import-data/connect/American Express/Blue Cash Everyday®/*.csv"
+    config:
+      default_file: "books/{{ date.year }}.bean"
+      prepend_postings:
+        - account: Liabilities:CreditCard:US:AMEXBlueCashEveryday
+          amount:
+            number: "{{ -amount }}"
+            currency: "{{ currency | default('USD', true) }}"
 
 imports:
   - name: Routine expenses
@@ -51,10 +59,43 @@ imports:
     actions:
       - txn:
           narration: "{{ routine_expenses[desc].narration | default(desc, true) | default(bank_desc, true) }}"
+          tags:
+          - Business
           postings:
             - account: "{{ routine_expenses[desc].account }}"
               amount:
                 number: "{{ -amount }}"
+                currency: "{{ currency | default('USD', true) }}"
+  
+  - name: Personal Routines
+    common_cond:
+      extractor:
+        equals: "plaid"
+    match:
+      - cond:
+          payee:
+            one_of:
+              - Safeway
+              - Trader Joe's
+              - Whole Foods
+        vars:
+          narration: Grocery shopping
+          account: Expenses:Grocery
+      - cond:
+          desc:
+            equals: AUTOPAY PAYMENT - THANK YOU
+        vars:
+          narration: Paid American Express Blue Cash Everyday
+          account: Assets:Bank:US:WellsFargo:Checking
+    actions:
+      - txn:
+          flag: "{{ '!' if pending else '*' }}"
+          payee: "{{ payee | default(omit, true) }}"
+          narration: "{{ narration }}"
+          postings:
+            - account: "{{ account }}"
+              amount:
+                number: "{{ amount }}"
                 currency: "{{ currency | default('USD', true) }}"
 
   - name: Gusto fees

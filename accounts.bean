@@ -1,5 +1,6 @@
 2021-01-01 open Assets:Cash
 2021-01-01 open Assets:Bank:US:Mercury
+2021-01-01 open Assets:Bank:US:WellsFargo:Checking
 2021-01-01 open Assets:AccountsReceivable:XYZContracting
 
 2021-01-01 open Income:Contracting:XYZ
@@ -16,3 +17,4 @@
 2021-01-01 open Expenses:Company:BusinessTravel
 
 2021-01-01 open Liabilities:CreditCard:US:AMEXAmazonPrime
+2021-01-01 open Liabilities:CreditCard:US:AMEXBlueCashEveryday
