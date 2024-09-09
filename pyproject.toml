@@ -7,8 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-beanhub-cli = "^1.1.2"
-beanhub-import = "^0.3.2"
+beanhub-cli = "^1.4.0"
+beanhub-import = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
