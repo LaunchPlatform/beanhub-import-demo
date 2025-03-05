@@ -27,7 +27,7 @@ inputs:
       extractor: mercury
       default_file: "books/{{ date.year }}.bean"
       prepend_postings:
-        - account: Assets:Bank:US:Mercury
+        - account: Assets:NonBank:US:Mercury
           amount:
             number: "{{ amount }}"
             currency: "{{ currency | default('USD', true) }}"

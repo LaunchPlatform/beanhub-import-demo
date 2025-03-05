@@ -1,5 +1,5 @@
 2021-01-01 open Assets:Cash
-2021-01-01 open Assets:Bank:US:Mercury
+2021-01-01 open Assets:NonBank:US:Mercury
 2021-01-01 open Assets:Bank:US:WellsFargo:Checking
 2021-01-01 open Assets:AccountsReceivable:XYZContracting
 
