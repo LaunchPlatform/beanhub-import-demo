@@ -1,135 +1,135 @@
 2023-12-28 * "Purchase office supplies"
   Expenses:Office:Supplies                                          201.87 USD
-  Assets:Bank:US:Mercury
+  Assets:NonBank:US:Mercury
 
 2024-01-01 * "Digital Ocean"
   import-id: "import-data/mercury/2024.csv:-1"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             -8.57 USD
+  Assets:NonBank:US:Mercury                                             -8.57 USD
   Expenses:Engineering:ServiceSubscription                            8.57 USD
 
 2024-01-03 * "Amazon Web Services"
   import-id: "import-data/mercury/2024.csv:-3"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                           -853.64 USD
+  Assets:NonBank:US:Mercury                                           -853.64 USD
   Expenses:Engineering:Servers:AWS                                  853.64 USD
 
 2024-01-03 * "Adobe"
   import-id: "import-data/mercury/2024.csv:-2"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                            -54.99 USD
+  Assets:NonBank:US:Mercury                                            -54.99 USD
   Expenses:Design:ServiceSubscription                                54.99 USD
 
 2024-01-04 * "Gusto subscription fee"
   import-id: "import-data/mercury/2024.csv:-4"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -46 USD
+  Assets:NonBank:US:Mercury                                               -46 USD
   Expenses:Office:Supplies:SoftwareAsService                            46 USD
 
 2024-01-07 * "Netlify"
   import-id: "import-data/mercury/2024.csv:-5"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -38 USD
+  Assets:NonBank:US:Mercury                                               -38 USD
   Expenses:Engineering:ServiceSubscription                              38 USD
 
 2024-01-08 * "American Express Amazon Prime credit card payment"
   import-id: "import-data/mercury/2024.csv:-6"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                           -345.67 USD
+  Assets:NonBank:US:Mercury                                           -345.67 USD
   Liabilities:CreditCard:US:AMEXAmazonPrime                         345.67 USD
 
 2024-01-12 * "Microsoft 365 Apps for Business Subscription"
   import-id: "import-data/mercury/2024.csv:-7"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             -8.25 USD
+  Assets:NonBank:US:Mercury                                             -8.25 USD
   Expenses:Office:Supplies:SoftwareAsService                          8.25 USD
 
 2024-01-15 * "Circleci"
   import-id: "import-data/mercury/2024.csv:-8"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -30 USD
+  Assets:NonBank:US:Mercury                                               -30 USD
   Expenses:Engineering:ServiceSubscription                              30 USD
 
 2024-01-16 * "Receive payment from XYZ"
   import-id: "import-data/mercury/2024.csv:-10"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             4,500 USD
+  Assets:NonBank:US:Mercury                                             4,500 USD
   Assets:AccountsReceivable:XYZContracting                             -15 XYZ.WORK_HOUR @ 300.0 USD
 
 2024-01-16 * "Mailchimp"
   import-id: "import-data/mercury/2024.csv:-9"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -26 USD
+  Assets:NonBank:US:Mercury                                               -26 USD
   Expenses:Marketing:ServiceSubscription                                26 USD
 
 2024-01-20 * "Business trip to NY"
   Expenses:Company:BusinessTravel                                   368.14 USD
-  Assets:Bank:US:Mercury
+  Assets:NonBank:US:Mercury
 
 2024-01-26 * "OpenPhone"
   import-id: "import-data/mercury/2024.csv:-11"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -10 USD
+  Assets:NonBank:US:Mercury                                               -10 USD
   Expenses:Office:Supplies:SoftwareAsService                            10 USD
 
 2024-02-01 * "Digital Ocean"
   import-id: "import-data/mercury/2024.csv:-14"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                                -7 USD
+  Assets:NonBank:US:Mercury                                                -7 USD
   Expenses:Engineering:ServiceSubscription                               7 USD
 
 2024-02-03 * "Amazon Web Services"
   import-id: "import-data/mercury/2024.csv:-16"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                           -171.24 USD
+  Assets:NonBank:US:Mercury                                           -171.24 USD
   Expenses:Engineering:Servers:AWS                                  171.24 USD
 
 2024-02-03 * "Adobe"
   import-id: "import-data/mercury/2024.csv:-15"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                            -54.99 USD
+  Assets:NonBank:US:Mercury                                            -54.99 USD
   Expenses:Design:ServiceSubscription                                54.99 USD
 
 2024-02-05 * "Gusto subscription fee"
   import-id: "import-data/mercury/2024.csv:-17"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -46 USD
+  Assets:NonBank:US:Mercury                                               -46 USD
   Expenses:Office:Supplies:SoftwareAsService                            46 USD
 
 2024-02-07 * "American Express Amazon Prime credit card payment"
   import-id: "import-data/mercury/2024.csv:-20"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                            -617.7 USD
+  Assets:NonBank:US:Mercury                                            -617.7 USD
   Liabilities:CreditCard:US:AMEXAmazonPrime                          617.7 USD
 
 2024-02-07 * "Receive payment from XYZ"
   import-id: "import-data/mercury/2024.csv:-19"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             5,700 USD
+  Assets:NonBank:US:Mercury                                             5,700 USD
   Assets:AccountsReceivable:XYZContracting                             -19 XYZ.WORK_HOUR @ 300.0 USD
 
 2024-02-07 * "Netlify"
   import-id: "import-data/mercury/2024.csv:-18"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -19 USD
+  Assets:NonBank:US:Mercury                                               -19 USD
   Expenses:Engineering:ServiceSubscription                              19 USD
 
 2024-02-12 * "Microsoft 365 Apps for Business Subscription"
   import-id: "import-data/mercury/2024.csv:-21"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             -8.25 USD
+  Assets:NonBank:US:Mercury                                             -8.25 USD
   Expenses:Office:Supplies:SoftwareAsService                          8.25 USD
 
 2024-02-15 * "Circleci"
   import-id: "import-data/mercury/2024.csv:-22"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -30 USD
+  Assets:NonBank:US:Mercury                                               -30 USD
   Expenses:Engineering:ServiceSubscription                              30 USD
 
 2024-02-16 * "Mailchimp"
   import-id: "import-data/mercury/2024.csv:-23"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -26 USD
+  Assets:NonBank:US:Mercury                                               -26 USD
   Expenses:Marketing:ServiceSubscription                                26 USD
 
 2024-02-18 * "Hours spent on contracting project for client XYZ"
@@ -139,83 +139,83 @@
 2024-02-26 * "Receive payment from XYZ"
   import-id: "import-data/mercury/2024.csv:-25"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             3,000 USD
+  Assets:NonBank:US:Mercury                                             3,000 USD
   Assets:AccountsReceivable:XYZContracting                             -10 XYZ.WORK_HOUR @ 300.0 USD
 
 2024-02-26 * "OpenPhone"
   import-id: "import-data/mercury/2024.csv:-24"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -10 USD
+  Assets:NonBank:US:Mercury                                               -10 USD
   Expenses:Office:Supplies:SoftwareAsService                            10 USD
 
 2024-03-01 * "Digital Ocean"
   import-id: "import-data/mercury/2024.csv:-28"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             -7.34 USD
+  Assets:NonBank:US:Mercury                                             -7.34 USD
   Expenses:Engineering:ServiceSubscription                            7.34 USD
 
 2024-03-03 * "Adobe"
   import-id: "import-data/mercury/2024.csv:-30"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                            -54.99 USD
+  Assets:NonBank:US:Mercury                                            -54.99 USD
   Expenses:Design:ServiceSubscription                                54.99 USD
 
 2024-03-03 * "Amazon Web Services"
   import-id: "import-data/mercury/2024.csv:-29"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                            -177.7 USD
+  Assets:NonBank:US:Mercury                                            -177.7 USD
   Expenses:Engineering:Servers:AWS                                   177.7 USD
 
 2024-03-05 * "Gusto subscription fee"
   import-id: "import-data/mercury/2024.csv:-31"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -46 USD
+  Assets:NonBank:US:Mercury                                               -46 USD
   Expenses:Office:Supplies:SoftwareAsService                            46 USD
 
 2024-03-07 * "American Express Amazon Prime credit card payment"
   import-id: "import-data/mercury/2024.csv:-33"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                           -245.53 USD
+  Assets:NonBank:US:Mercury                                           -245.53 USD
   Liabilities:CreditCard:US:AMEXAmazonPrime                         245.53 USD
 
 2024-03-07 * "Netlify"
   import-id: "import-data/mercury/2024.csv:-32"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -19 USD
+  Assets:NonBank:US:Mercury                                               -19 USD
   Expenses:Engineering:ServiceSubscription                              19 USD
 
 2024-03-12 * "Microsoft 365 Apps for Business Subscription"
   import-id: "import-data/mercury/2024.csv:-34"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             -8.25 USD
+  Assets:NonBank:US:Mercury                                             -8.25 USD
   Expenses:Office:Supplies:SoftwareAsService                          8.25 USD
 
 2024-03-15 * "Circleci"
   import-id: "import-data/mercury/2024.csv:-35"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -30 USD
+  Assets:NonBank:US:Mercury                                               -30 USD
   Expenses:Engineering:ServiceSubscription                              30 USD
 
 2024-03-16 * "Mailchimp"
   import-id: "import-data/mercury/2024.csv:-36"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -26 USD
+  Assets:NonBank:US:Mercury                                               -26 USD
   Expenses:Marketing:ServiceSubscription                                26 USD
 
 2024-03-26 * "OpenPhone"
   import-id: "import-data/mercury/2024.csv:-37"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                               -10 USD
+  Assets:NonBank:US:Mercury                                               -10 USD
   Expenses:Office:Supplies:SoftwareAsService                            10 USD
 
 2024-03-27 * "Receive payment from XYZ"
   import-id: "import-data/mercury/2024.csv:-38"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                             2,100 USD
+  Assets:NonBank:US:Mercury                                             2,100 USD
   Assets:AccountsReceivable:XYZContracting                              -7 XYZ.WORK_HOUR @ 300.0 USD
 
 2024-03-30 * "Amazon Web Services"
   import-id: "import-data/mercury/2024.csv:-39"
   import-src: "import-data/mercury/2024.csv"
-  Assets:Bank:US:Mercury                                           -343.25 USD
+  Assets:NonBank:US:Mercury                                           -343.25 USD
   Expenses:Engineering:Servers:AWS                                  343.25 USD
