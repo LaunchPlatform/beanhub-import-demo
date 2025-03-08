@@ -22,23 +22,23 @@ context:
       narration: "American Express Amazon Prime credit card payment"
 
 inputs:
-  - match: "import-data/mercury/*.csv"
+  - match: "import-data/{{ match_path }}"
     config:
-      extractor: mercury
+      extractor: "{{ extractor | default(omit) }}"
       default_file: "books/{{ date.year }}.bean"
       prepend_postings:
-        - account: Assets:NonBank:US:Mercury
+        - account: "{{ input_account }}"
           amount:
-            number: "{{ amount }}"
+            number: "{{ amount * amount_scalar }}"
             currency: "{{ currency | default('USD', true) }}"
-  - match: "import-data/connect/American Express/Blue Cash Everyday/*.csv"
-    config:
-      default_file: "books/{{ date.year }}.bean"
-      prepend_postings:
-        - account: Liabilities:CreditCard:US:AMEXBlueCashEveryday
-          amount:
-            number: "{{ -amount }}"
-            currency: "{{ currency | default('USD', true) }}"
+    loop:
+    - match_path: mercury/*.csv
+      amount_scalar: 1
+      input_account: Assets:NonBank:US:Mercury
+      extractor: "extractor"
+    - match_path: "connect/American Express/Blue Cash Everyday/*.csv"
+      amount_scalar: -1
+      input_account: Liabilities:CreditCard:US:AMEXBlueCashEveryday
 
 imports:
   - name: Routine expenses
